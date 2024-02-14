@@ -1,6 +1,7 @@
 // Definindo o nome e a quantidade de experiência (XP) do herói
 let nomeHeroi = "Thiago";
-let XPHeroi = 17001; // Altere esse valor para testar diferentes níveis
+let random = Math.floor(Math.random() * 20001); // Declarando variável para gerar um número aleatório entre 0 e 20000 caso deseje
+let XPHeroi = 17001; // Altere esse valor para mudar os níveis
 
 // Utilizando uma estrutura de decisão para determinar o nível do herói com base na quantidade de XP
 let nivelHeroi;
